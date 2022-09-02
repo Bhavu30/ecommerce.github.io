@@ -448,6 +448,10 @@ header {
     .icon-2 {
         font-size: var(--font-medium2);
     }
+    .nav
+    {
+        padding:1.5rem 2%;
+    }
 }
 
 
