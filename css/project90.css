@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Lexend', Times, serif;
     transition: 0.5s all ease;
+    
 
 }
 
@@ -55,7 +56,7 @@ header {
 
 .items a {
     text-decoration: none;
-    font-size: var(--font-big2);
+    font-size: var(--font-medium2);
     font-weight: 500;
     color: black;
     margin: 0rem 0.6rem;
@@ -66,8 +67,9 @@ header {
 
     text-decoration: none;
     color: black;
-    font-size: 2rem;
+    font-size: var(--font-big);
     font-weight: 500;
+   
 
 }
 
@@ -89,7 +91,7 @@ header {
     margin: 0rem 0.5rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    font-size: 0.8rem;
+    font-size: var(--font-medium2);
     cursor: pointer;
 
 }
@@ -188,11 +190,6 @@ header {
     .items {
         display: none;
     }
-
-    .items a {
-        font-size: var(--font-small);
-    }
-
 
     .icons {
         display: none;
@@ -410,26 +407,25 @@ header {
 @media(max-width:991px) {
     :root {
         --font-bigger: 1.7rem;
-        --font-big2: 1.5rem;
+        --font-big2: 1.2rem;
         --font-big: 1.3rem;
         --font-small: 0.9rem;
-        --font-medium: 1rem;
+        --font-medium: 1.1rem;
         --font-medium2: 1.2rem;
     }
+    .nav
+    {
+       padding:1.8rem 3%;
+    }
     
-
-    #title {
-        font-size: var(--font-medium2);
-    }
-
-    .items a {
-        font-size: var(--font-medium);
-    }
-
-    .icon-2 {
-       font-size: var(--font-small);
-
-    }
+ /*
+       --font-bigger: 2rem;
+    --font-big2: 1.6rem;
+    --font-big: 1.5rem;
+    --font-small: 1rem;
+    --font-medium: 1.2rem;
+    --font-medium2: 1.3rem;*/
+  
 }
 
 
@@ -437,30 +433,31 @@ header {
 
 
 @media(min-width:1000px) {
-    #title {
-        font-size: var(--font-bigger);
-    }
 
-    .items a {
-        font-size: var(--font-big);
-    }
-
-    .icon-2 {
-        font-size: var(--font-medium2);
-    }
-    .nav
-    {
-        padding:1.5rem 2%;
-    }
+     :root
+     {
+         
+       --font-bigger: 2rem;
+    --font-big2: 1.6rem;
+    --font-big: 1.5rem;
+    --font-small: 1.1rem;
+    --font-medium: 1.3rem;
+    --font-medium2: 1.4rem;
+     }
+     .nav
+     {
+        padding:1.8rem 2%;
+     }
 }
 
 
 
 
 
-/* --font-bigger:2rem;
---font-big2:1.6rem;
---font-big:1.5rem;
---font-small:1rem;
---font-medium:1.2rem;
---font-medium2:1.3rem; */
+ /*
+       --font-bigger: 2rem;
+    --font-big2: 1.6rem;
+    --font-big: 1.5rem;
+    --font-small: 1rem;
+    --font-medium: 1.2rem;
+    --font-medium2: 1.3rem;*/
