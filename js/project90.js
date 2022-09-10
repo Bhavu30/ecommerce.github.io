@@ -62,4 +62,46 @@ var swiper = new Swiper(".home-slider", {
     grabCursor:true,
   },
 });
+/*swiper js for second slider */
+var swiper = new Swiper(".home-slider2", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    grabCursor:true
+  },
+});
+
+var swiper = new Swiper(".card-slider", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop:true,
+  autoplay:{
+    delay:2000,
+  }
+  ,
+  breakpoints: {
+    550: {
+      slidesPerView: 2,
+      spaceBetween: 5,
+     
+    },
+    768: {
+      loop:true,
+      slidesPerView: 2,
+      spaceBetween: 20,
+      
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+     
+ 
+    },
+  },
+});
+
+
+
+
+
 
