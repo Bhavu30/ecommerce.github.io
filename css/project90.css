@@ -315,11 +315,11 @@ header {
 
 .cards-btn {
     text-decoration: none;
+    width:8rem;
     color: black;
     position: relative;
-    width: 9rem;
+    
     /* background-color: red; */
-    font-weight: bold;
     font-size: var(--font-medium2);
 }
 
@@ -347,6 +347,10 @@ header {
     {
         font-size: 2rem !important;
         
+    }
+    .cards-btn
+    {
+        font-size:1.6rem;
     }
    
    
@@ -636,6 +640,7 @@ header {
         width:13rem !important;
        
     }
+    
   
 }
 
